@@ -21,7 +21,7 @@ The tool reads in an image file and outputs a number of new images. Detected obj
 
 **_annotated**: original image with the outlines of the detected objects superimposed.
 
-Hysteresis thresholding is used for edge detection. High and low threshold values can be specified as command line arguments. A large high threshold will filter out noise in some images, but miss detail in others. These parameteers should be tuned per image. For example, higher values will miss the lighter colored objects in the provided shapes file.
+Hysteresis thresholding is used for edge detection. High and low threshold values can be specified as command line arguments. A large high threshold will filter out noise in some images, but miss detail in others. These parameters should be tuned per image. For example, higher values will miss the lighter colored objects in the provided shapes file.
 
 The tool is designed to ignore detected noise, and will only crop out objects at least roughly 10% as large as the image.
 
