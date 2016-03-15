@@ -30,3 +30,10 @@ crops detected objects from image FILE and writes their subimages to files. Can 
 otherwise subimage files are created in the directory that the FILE is in by default 
 
 -t [n] [m] 		set the high and low threshold values. n and m are values between 0 and 1. default is 0.2 0.4
+
+## Example Usage
+
+```bash
+$run.sh images/massachusetts1.png
+
+```
